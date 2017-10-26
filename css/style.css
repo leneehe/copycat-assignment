@@ -11,6 +11,10 @@ body {
   font-size: 1.2em;
 }
 
+section, div, main, header, footer, nav {
+  display: block;
+}
+
 header {
   height: 60px;
   overflow: hidden;
@@ -42,6 +46,45 @@ li {
   margin-right: 10px;
   margin-bottom: 5px
   line-height: 60px;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+}
+
+#home{
+  overflow: hidden;
+  background-color: #26547C;
+  color: white;
+}
+
+.home-img {
+  float:left;
+  width: 60%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.home-title {
+  float:right;
+  width: 40%;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+#cats {
+  background-color: #FFD166;
+  padding: 20px 30px;
+}
+
+h3 {
+  font-size: 1.17em;
+  font-weight: bold;
 }
 
 footer {
